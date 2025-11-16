@@ -1,0 +1,10 @@
+extract:
+  rate_limit_delay: 1  # seconds
+
+sources:
+  elexon_generation:
+    url:
+      - "https://data.elexon.co.uk/bmrs/api/v1/generation/outturn/summary?startTime=2025-08-13&endTime=2025-11-14&includeNegativeGeneration=true"
+  elexon_weather:
+    url:
+      - "https://data.elexon.co.uk/bmrs/api/v1/temperature?from=2025-08-13&to=2025-11-14"

@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# SQLite database (optional, if you don't want to track generated data)
+energy.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
+
+# VSCode files (optional)
+.vscode/
+
+# Jupyter notebook checkpoints (if you use notebooks)
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Environment variables / secrets
+.env

@@ -1,0 +1,5 @@
+pandas>=2.0
+numpy>=1.25
+pyyaml>=6.0
+plotly>=6.0
+streamlit>=1.25
