@@ -25,13 +25,17 @@ This project fetches energy generation and weather data from APIs, transforms th
 ```bash
 git clone https://github.com/yourusername/energy-dashboard.git
 cd energy-dashboard
+```
 
 2. Create a Python environment (optional but recommended):
+```
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
+```
 
 3. Install dependencies:
+```
 pip install -r requirements.txt
 ```
 ---
