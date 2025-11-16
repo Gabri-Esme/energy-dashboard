@@ -60,16 +60,16 @@ streamlit run dashboard.py
 
 ## Project Structure
 
-energy-dashboard/
-├── config/
-│   └── settings.yaml       # API endpoints and settings
-├── data/
-│   └── energy.db           # SQLite database
-├── extract_load.py         # Fetch and transform data, load into SQLite
-├── transforms.py           # Functions to normalize and transform raw API data
-├── dashboard.py            # Streamlit dashboard script
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+energy-dashboard/  
+├── config/  
+│   └── settings.yaml       # API endpoints and settings  
+├── data/  
+│   └── energy.db           # SQLite database  
+├── extract_load.py         # Fetch and transform data, load into SQLite  
+├── transforms.py           # Functions to normalize and transform raw API data  
+├── dashboard.py            # Streamlit dashboard script  
+├── requirements.txt        # Python dependencies  
+└── README.md               # Project documentation  
 
 ---
 
