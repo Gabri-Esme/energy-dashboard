@@ -42,16 +42,7 @@ pip install -r requirements.txt
 
 ## Configuration
 
-All API endpoints and settings are in config/settings.yaml:
-extract:
-  rate_limit_delay: 1  # seconds between API calls
-sources:
-  elexon_generation:
-    url:
-      - "https://api.example.com/generation"
-  elexon_weather:
-    url:
-      - "https://api.example.com/weather"
+All API endpoints and settings are in config/settings.yaml.
 
 ---
 
