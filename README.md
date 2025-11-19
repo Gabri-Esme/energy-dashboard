@@ -4,6 +4,8 @@ This project fetches energy generation and weather data from APIs, transforms th
 
 ---
 
+![Dashboard Preview](screenshot.png)
+
 ## Features
 
 - Fetch daily **generation** and **weather** data from Elexon API.
